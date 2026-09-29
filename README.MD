@@ -24,7 +24,7 @@ skip-plugins = puppet
 
 Then run the following command:
 ```
-sos report --batch -o overlookinfra_puppet --case-id <ticket ID>
+sudo sos report --batch -o overlookinfra_puppet --case-id <ticket ID>
 ```
 
 Thiv should provide you with a `/var/tmp/sosreport-*.tar.xz` file. Please attach it to your support ticket.
